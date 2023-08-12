@@ -3,8 +3,7 @@ import sys
 import time
 from time import sleep
 
-#file coded by IrydFlsh
-
+#file coded by IRSYAD'S
 
 os.system("clear")
 print("=================================PROCESSING=================================")
@@ -28,11 +27,11 @@ os.system("clear")
 print("============================================================================")
 sleep(10)
 os.system("clear")
-print("yaudah lanjut")
+os.system("figlet OK Bang")
 sleep(3)
 os.system("clear")
 
-print("=================================DOWNLOADING=================================")
+print("=================================DOWNLOADING================================")
 url_untuk_wget = "wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-arm.tgz"
 os.system(url_untuk_wget)
 print("============================================================================")
@@ -44,9 +43,12 @@ os.system(extract)
 print("============================================================================")
 sleep(3)
 print("|")
+
 print("=================================PROCESSING=================================")
-print(" *CONTOH: ./ngrok config add-authtoken 2OVZ****************************_****            ")
+print(" *Exaple: ./ngrok config add-authtoken 2OVZ****************************_****")
 authtoken = input("Insert Ngrok Config = ")
 os.system(authtoken)
 print("============================================================================")
-sleep(3)
+print("Laman ini akan ditutup dalam 5 detik.....")
+sleep(5)
+os.system("clear")

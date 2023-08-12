@@ -49,6 +49,7 @@ print(" *Exaple: ./ngrok config add-authtoken 2OVZ****************************_*
 authtoken = input("Insert Ngrok Config = ")
 os.system(authtoken)
 print("============================================================================")
+os.system("cp ngrok /data/data/com.termux/files/home")
 print("Laman ini akan ditutup dalam 5 detik.....")
 sleep(5)
 os.system("clear")
